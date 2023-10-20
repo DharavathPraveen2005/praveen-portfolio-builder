@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="new project.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Front end webdeveloping</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Anything 1</li>
+                <li>Anything 2</li>
+                <li>Anything 3</li>
+            </ul>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+  CSS CODE FOR SIMPLE WEB DESIGN
+
+  /* Reset some default styles for cross-browser consistency */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+  background-color: #781616;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, text color, and a border */
+header {
+  background-color: #382525;
+  color: #ffffff;
+  border-bottom: 2px solid #777;
+  padding: 10px 0;
+}
+
+/* Style the navigation menu within the header */
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Style the main content sections */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+/* Style the footer with a background color and text color */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
